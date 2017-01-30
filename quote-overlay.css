@@ -1,0 +1,164 @@
+.btn-grey {
+    color: #555;
+    background-color: #f0f0f0;
+}
+
+.overlay-box:hover>.overlay-logo {
+    opacity: .1;
+    filter: alpha(opacity=10);
+    -webkit-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    -o-transform: scale(2, 2);
+    transform: scale(2, 2);
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+.overlay-box:hover>.overlay-content {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+.overlay-box {
+    z-index: 999;
+    overflow: hidden;
+    color: #fff;
+    height: 280px;
+    background: #9ce;
+    float: left;
+}
+
+.overlay-box .overlay-logo {
+    pointer-events: none;
+    height: 100%;
+    width: 100%;
+    margin: -280px auto 0;
+    -webkit-transition-property: opacity, transform;
+    transition-property: opacity, transform;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
+
+.overlay-box.box1 {
+    background: #531f29;
+}
+
+.overlay-box.box1 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo1.png) center no-repeat;
+    background-size: 55%
+}
+
+.overlay-box.box2 {
+    background: #ffc7ae;
+}
+
+.overlay-box.box2 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo2.png) center no-repeat;
+    background-size: 55%;
+}
+
+.overlay-box.box3 {
+    background: #0E8BD1;
+}
+
+.overlay-box.box3 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo3.png) center no-repeat;
+    background-size: 55%;
+}
+
+.overlay-box.box4 {
+    background: #DC0451;
+}
+
+.overlay-box.box4 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo4.png) center no-repeat;
+    background-size: 55%;
+}
+
+.overlay-box.box5 {
+    background: #4c566c;
+}
+
+.overlay-box.box5 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo5.png) center no-repeat;
+    background-size: 55%;
+}
+
+.overlay-box.box6 {
+    background: #f7941d;
+}
+
+.overlay-box.box6 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo6.png) center no-repeat;
+    background-size: 55%;
+}
+
+.overlay-box.box7 {
+    background: #9ac3ff;
+}
+
+.overlay-box.box7 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo7.png) center no-repeat;
+    background-size: 55%;
+}
+
+.overlay-box.box8 {
+    background: #008060;
+}
+
+.overlay-box.box8 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo8.png) center no-repeat;
+    background-size: 55%;
+}
+
+.overlay-box.box9 {
+    background: #061206;
+}
+
+.overlay-box.box9 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo9.png) center no-repeat;
+    background-size: 55%;
+}
+
+.overlay-box.box10 {
+    background: #0c1d26;
+}
+
+.overlay-box.box10 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo10.png) center no-repeat;
+    background-size: 55%;
+}
+
+.overlay-box.box11 {
+    background: #7fc56d;
+}
+
+.overlay-box.box11 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo11.png) center no-repeat;
+    background-size: 55%;
+}
+
+.overlay-box.box12 {
+    background: #F7901E;
+}
+
+.overlay-box.box12 .overlay-logo {
+    background: url(https://www.solodev.com/assets/customer-overlay/logo12.png) center no-repeat;
+    background-size: 55%;
+}
+
+.overlay-content {
+    height: 280px;
+    padding: 30% 8% 25%;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: default;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition-property: opacity, transform;
+    transition-property: opacity, transform;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+}
